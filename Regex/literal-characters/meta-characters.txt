@@ -1,0 +1,36 @@
+
+
+###################################
+Basic Syntax of Regular Expressions
+###################################
+Literal Characters: Matches the exact character (e.g., a matches "a").
+. (Dot): Matches any character except a newline.
+\d: Matches any digit (0–9).
+\D: Matches any non-digit character.
+\w: Matches any word character (letters, digits, and underscores).
+\W: Matches any non-word character.
+\s: Matches any whitespace character (space, tab, newline).
+\S: Matches any non-whitespace character.
+
+###################################
+Quantifiers
+###################################
+- Quantifiers specify how many times a character or group should appear.
+*: Matches 0 or more times.
++: Matches 1 or more times.
+?: Matches 0 or 1 time.
+{n}: Matches exactly n times.
+{n,}: Matches n or more times.
+{n,m}: Matches between n and m times.
+
+###################################
+Anchors
+###################################
+- Anchors specify the position of a pattern within the string.
+^: Matches the beginning of a string.
+$: Matches the end of a string.
+\b: Matches a word boundary.
+Groups and Alternation
+(): Used to create groups.
+|: Acts as an "or" operator between patterns.
+###################################
